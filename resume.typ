@@ -1,10 +1,12 @@
 #import "template.typ": *
+// template.typ内可以对字体进行修改,如果遇到无法汉字字体加粗的情况,请下载静态字体如:Source Han Serif SC
 
 // 主题颜色
 #let theme-color = rgb("#26267d")
 #let icon = icon.with(fill: theme-color)
 
-// 设置图标, 来源: https://fontawesome.com/icons/
+// 设置图标, 来源: https://fontawesome.com/icons/ version==6.7.2
+// https://fontawesome.com/v6/search?ip=classic&s=regular%2Csolid&ic=free&o=r
 #let fa-award = icon("icons/fa-award.svg")
 #let fa-building-columns = icon("icons/fa-building-columns.svg")
 #let fa-code = icon("icons/fa-code.svg")
